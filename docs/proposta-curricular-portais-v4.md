@@ -576,9 +576,10 @@ Unidades compartilhadas com outros cursos da saúde da Unidavi (simulação de c
 
 ### 10.2 O Capi hoje (descritivo de 01/11/2026)
 - Site único com login Google institucional, **13 módulos (9 em uso)**, cerca de 400 alunos, professores e coordenação.
-- **Princípios:** formativo, não classificatório (sem ranking, placar ou gamificação); a IA ajuda a pensar e não decide; evidência antes de eloquência; privacidade por padrão (nome ligado a desempenho só para a coordenação geral); regras de acesso garantidas no banco de dados.
+- **Princípios:** formativo, não classificatório (sem ranking, placar ou gamificação); a IA ajuda a pensar e não decide; evidência antes de eloquência; privacidade por padrão; regras de acesso garantidas no banco de dados.
+- **Acesso a nomes, hoje:** nome ligado a desempenho só aparece para a coordenação geral (3 pessoas). **É uma restrição transitória**, decorrente de o Capi ainda não estar integrado institucionalmente (identidade, LGPD, contas). **O plano é integrar.**
 - **Assistente com 6 papéis limitados** (ajuda de uso, mentor do erro, leitura da sessão, ajuda e material da SAM, cenário de simulação), teto de gasto diário, nada vira nota ou decisão sem uma pessoa.
-- **Não é implantação oficial** da Unidavi nem está integrado aos sistemas institucionais.
+- **Ainda não é implantação oficial** da Unidavi nem está integrado aos sistemas institucionais. **A integração institucional está planejada** (seção 10.5).
 
 ### 10.3 Onde cada ideia encontra o Capi
 
@@ -600,10 +601,14 @@ Unidades compartilhadas com outros cursos da saúde da Unidavi (simulação de c
 
 ### 10.4 Tensões e como resolvê-las
 
-**a) Mentoria × privacidade (a mais importante).** A proposta prevê que mentor e tutor vejam a trajetória dos seus alunos; a regra vigente do Capi restringe nomes ligados a desempenho à coordenação geral.
-1. **Agora:** o **estudante compartilha o próprio painel** na mentoria, ou leva um resumo exportado por ele. Nenhuma regra muda.
-2. **Depois da formalização da LGPD:** papel **mentor** com acesso restrito por regra de banco **apenas aos seus 9 a 12 mentorados**, com base legal e aprovação institucional.
-3. **Nunca:** abrir nomes para todos os professores.
+**a) Acesso nominal de tutores e mentores: questão de etapa, não de princípio.** A proposta prevê que mentor, tutor e Comitê vejam a trajetória dos seus alunos. Hoje o Capi restringe nomes à coordenação geral **porque ainda não está integrado institucionalmente**. Com a integração, o acesso nominal passa a ser parte do desenho.
+
+| Etapa | Acesso |
+|---|---|
+| **Antes da integração** | O **estudante compartilha o próprio painel** na mentoria, ou leva um resumo exportado por ele. Trabalho com nomes segue pelas vias oficiais (Comitê de Acompanhamento, reuniões próprias) |
+| **Depois da integração** | Acesso nominal **por vínculo pedagógico**, garantido no banco de dados: **tutor** → seu grupo no semestre · **mentor** → seus 9 a 12 mentorados · **coordenador de fase** → sua fase · **Comitê de Acompanhamento** → a fase em análise · **preceptor/supervisor** → os internos sob sua supervisão no rodízio |
+
+**Princípio que permanece em qualquer etapa:** acesso pela **necessidade de saber**, derivada do vínculo (registrado no Mentor Web e na lotação do módulo Pessoas e Turmas). O vínculo termina, o acesso termina. Nenhum professor vê toda a base nominal sem vínculo, e todo acesso fica registrado.
 
 **b) "Gamificação".** O termo sai do PPC e do Capi. O conjunto passa a se chamar **progressão por marcos de competência** (requisito de acesso = segurança do paciente; microcertificação = nível de APC; mapa da jornada = portfólio).
 
@@ -613,8 +618,8 @@ Unidades compartilhadas com outros cursos da saúde da Unidavi (simulação de c
 
 **e) Item com apoio de IA × julgamento por IA.** Item gerado com apoio de IA e **curado por humanos** pode compor avaliação somativa. Correção ou julgamento feito pela IA é **sempre formativo**.
 
-### 10.5 Condições para o Capi sustentar funções oficiais
-(do próprio descritivo)
+### 10.5 Plano de integração institucional do Capi
+Condições já listadas no próprio descritivo, que passam a ser as **etapas do plano de integração**:
 - Contas de serviço institucionais, com mais de um responsável.
 - Identidade ligada ao cadastro acadêmico (Mentor Web).
 - LGPD formalizada: base legal, termo de uso, encarregado de dados, contratos com provedores de IA e hospedagem.
@@ -626,7 +631,10 @@ Unidades compartilhadas com outros cursos da saúde da Unidavi (simulação de c
 1. **NDE** define a lista de APCs (seção 7.2) e a escala de confiança.
 2. **Colegiado** aprova o regulamento do Comitê e a avaliação pré-internato.
 3. **LGPD formalizada** (pode correr em paralelo).
-4. **Só então** o Capi cria as tabelas reais de APC e portfólio e o papel de mentor com acesso restrito.
+4. **Integração institucional** do Capi (seção 10.5): identidade ligada ao Mentor Web, contas institucionais, LGPD formalizada.
+5. O Capi cria as tabelas reais de APC e portfólio e os **papéis com acesso nominal por vínculo** (tutor, mentor, coordenador de fase, Comitê, supervisor).
+
+As etapas 1 e 2 (currículo) e 3 e 4 (institucional) podem correr em paralelo; a etapa 5 depende de todas.
 
 ---
 
@@ -700,7 +708,7 @@ Pela leitura mais conservadora do Art. 39, **a turma de 2027/1 já deveria ingre
 | Rede sem vagas suficientes (Saúde Mental, HRAV) | Pactuação via COAPES antes de cada expansão |
 | Docentes sem formação no modelo | Certificação pelo NAPED como pré-requisito |
 | Sobrecarga de registros (portfólio, feedback) | Limite de volume; formulários curtos |
-| Dependência do Capi para funções oficiais | Caminho oficial independente (seção 10.4 d) |
+| Dependência do Capi para funções oficiais antes da integração | Caminho oficial independente até a integração (seção 10.4 d); plano de integração (seção 10.5) |
 | Continuidade técnica do Capi (uma pessoa) | Responsável técnico institucional |
 
 ### 13.5 Avaliação do próprio currículo
@@ -719,7 +727,7 @@ Modelo **CIPP** (contexto, insumos, processo, produto), com coleta desde a prime
 | 5 | Eletivo no internato | Manter (via estágio externo com residência CNRM) · retirar |
 | 6 | OSCE pré-internato | Número de estações e método de nota de corte |
 | 7 | Lista de APCs e escala de confiança | Seção 7.2 como ponto de partida |
-| 8 | Acesso de mentores a dados de desempenho | Compartilhamento pelo estudante (agora) · papel de mentor com acesso restrito (após LGPD) |
+| 8 | Acesso nominal a dados de desempenho | Antes da integração: compartilhamento pelo estudante · Depois: acesso por vínculo pedagógico (tutor, mentor, coordenador de fase, Comitê, supervisor) — definir regras e duração do acesso |
 | 9 | Nomenclatura | "Casas" para a mentoria; "Conversa sobre o erro" para o papel de IA |
 | 10 | Paciente virtual conversacional | Dentro do Capi, encenado como simulação · fora do ecossistema |
 
