@@ -6,7 +6,7 @@ Repositório de trabalho para a idealização de um curso de Medicina inspirado 
 
 - [`docs/proposta-curricular-portais-v4.md`](docs/proposta-curricular-portais-v4.md) — documento de trabalho consolidado (v4, 01/11/2026), para discussão no NDE. **Não aprovado.**
 
-- [`docs/treino/santa-casa-2027/`](docs/treino/santa-casa-2027/README.md) — Santa Casa/UFCSPA 2027 (Acesso Direto): 100 questões comentadas e flashcards para o treino MEDUNIDAVI. **Rascunho editorial.**
+- [`docs/treino/santa-casa-2027/`](docs/treino/santa-casa-2027/README.md) — Santa Casa/UFCSPA 2027 (Acesso Direto): resolução própria das 100 questões (justificativas e flashcards) e auditoria contra o gabarito e a versão do ChatGPT. **Rascunho editorial.**
 
 ## Situação
 

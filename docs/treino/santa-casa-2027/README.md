@@ -1,42 +1,29 @@
 # Santa Casa/UFCSPA 2027 — Acesso Direto: material para o treino MEDUNIDAVI
 
-**Situação:** RASCUNHO EDITORIAL, sem liberação ao estudante (`student_visible = false` em todos os registros).
+**Situação:** RASCUNHO EDITORIAL, sem liberação ao estudante (`student_visible = false`).
 
-| Item | Quantidade |
+Resolução própria das 100 questões a partir do PDF da prova, com justificativa, comentário de cada alternativa, flashcard e ressalvas, seguida de confronto com o gabarito e auditoria cruzada com a V2 produzida pelo ChatGPT. O método, os limites e os resultados estão em [`AUDITORIA.md`](AUDITORIA.md).
+
+| Indicador | Valor |
 |---|---|
-| Questões comentadas (justificativa + comentário por alternativa) | 100 |
-| Flashcards | 94 |
-| Questões com ressalva editorial | 51 |
-| Questões bloqueadas | 11 (13, 20, 28, 35, 38, 52, 58, 86, 88, 90, 97) |
-| Concordância da resolução cega com o gabarito | 93/100 |
+| Questões comentadas (justificativa + A–D) | 100 |
+| Flashcards | 95 |
+| Concordância com o gabarito preliminar | 95/100 (resolução **não cega**) |
+| Bloqueadas até o gabarito definitivo | 28, 38, 52, 88, 90 |
+| Divergências com a V2 do ChatGPT, para decisão do curador | 33, 35, 58, 86, 100 |
 
 ## Fontes
-
 - Prova: [UFCSPA-Medica-ACESSO-DIRETO.pdf](https://drive.google.com/file/d/184wAibaUuAJcpkbtZ278HfPk7dmhIqAf/view)
-- Gabarito **preliminar** (Edital nº 06, 04/11/2026): [PDF no Drive](https://drive.google.com/file/d/1hklOLHgSxr0MH69i16Q9qJzhX6MihSFO/view) · [publicação oficial na FUNDMED](https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Gabarito-preliminar-e-disponibilizacao-do-resultado-preliminar-da-prova-objetiva.pdf). As duas cópias foram comparadas em 08/11/2026 e a chave do Acesso Direto é idêntica nas 100 questões.
-- Gabarito definitivo de 2027: **ainda não publicado** em 08/11/2026.
-
-## Conferências feitas em 08/11/2026
-
-1. As letras de `gabarito_preliminar` nas 100 questões batem com o edital oficial.
-2. Enunciados e alternativas foram comparados por trigramas com o texto do PDF da prova. Não há divergência de conteúdo, apenas diferenças de layout na tabela de densitometria da Q31.
-3. Link do gabarito corrigido: o rascunho apontava para outro arquivo do Drive.
-4. Segunda leitura clínica das 11 questões bloqueadas: ver [`revisao_questoes_bloqueadas.md`](revisao_questoes_bloqueadas.md).
+- Gabarito **preliminar** (Edital nº 06, 04/11/2026): [FUNDMED](https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Gabarito-preliminar-e-disponibilizacao-do-resultado-preliminar-da-prova-objetiva.pdf). As cópias no Drive são idênticas.
+- Gabarito definitivo de 2027: ainda não publicado em 08/11/2026.
+- V2 do ChatGPT, usada só na auditoria: `Santa_Casa_2027_Medunidavi_V2_RASCUNHO.zip`, no Drive.
 
 ## Arquivos
+- [`Santa_Casa_2027_Claude_Justificativas_Flashcards.md`](Santa_Casa_2027_Claude_Justificativas_Flashcards.md) e a versão `.docx`: documento de leitura completo, com as figuras da Q30 e da Q58.
+- [`AUDITORIA.md`](AUDITORIA.md): método, limites, divergências com o gabarito e com a V2, e autocrítica.
+- `claude/bloco_*.md`: texto-fonte por área (cirurgia, clínica, preventiva/MFC, GO, pediatria).
+- `claude/questoes_claude.csv`: uma linha por questão, com resposta, confiança, gabarito, justificativa, comentários A–D, flashcard, ressalva, status e as decisões da V2 para comparação. UTF-8, separador `;`.
+- `claude/flashcards_claude.csv`: 95 cartões.
+- `figuras/`: ECG da Q30 e forest plot da Q58.
 
-- [`justificativas_flashcards.md`](justificativas_flashcards.md): leitura completa (enunciado, gabarito, justificativa, alternativas, ressalvas, flashcard e referências).
-- `Santa_Casa_2027_Justificativas_Flashcards_RASCUNHO.docx`: mesma versão em Word, para revisão.
-- `Santa_Casa_2027_Leitura.html`: versão de leitura em navegador (usa a pasta `figuras/`).
-- `editorial/questoes_editorial.csv`, `editorial/flashcards_editorial.csv`, `editorial/ressalvas.csv`: CSV em UTF-8, separador `;`. São arquivos para incorporação posterior; o formato não presume compatibilidade com o importador atual do MEDUNIDAVI.
-- `figuras/`: figuras originais da prova (ECG da Q30 e forest plot da Q58).
-
-## Padrão editorial (o mesmo do trabalho AMRIGS)
-
-Gabarito com justificativa principal, comentário de cada alternativa e um flashcard autônomo quando útil. Quando o cartão seria ambíguo ou dependeria do contexto, a questão fica sem flashcard e a recomendação é reaplicá-la. Questões oficiais são preservadas sem alteração, mesmo quando têm defeitos; as ressalvas ficam explícitas. Bloqueios são decisões editoriais provisórias, não anulações da banca.
-
-## Próximos passos
-
-1. Curadoria docente das 11 questões bloqueadas (recomendações na revisão).
-2. Quando o gabarito definitivo for publicado, conferir anulações e alterações (prioridade: Q28, Q35, Q38, Q52 e Q90).
-3. Revisão humana amostral das 89 questões em `draft` antes de liberar ao estudante.
+O pacote é editorial e não é um lote nativo do importador do MEDUNIDAVI.
