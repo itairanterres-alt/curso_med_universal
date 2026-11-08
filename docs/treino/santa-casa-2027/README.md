@@ -13,7 +13,7 @@
 ## Fontes
 
 - Prova: [UFCSPA-Medica-ACESSO-DIRETO.pdf](https://drive.google.com/file/d/184wAibaUuAJcpkbtZ278HfPk7dmhIqAf/view)
-- Gabarito **preliminar** (Edital nº 06, 04/11/2026): [PDF no Drive](https://drive.google.com/file/d/1hklOLHgSxr0MH69i16Q9qJzhX6MihSFO/view)
+- Gabarito **preliminar** (Edital nº 06, 04/11/2026): [PDF no Drive](https://drive.google.com/file/d/1hklOLHgSxr0MH69i16Q9qJzhX6MihSFO/view) · [publicação oficial na FUNDMED](https://fundmed.org.br/website/wp-content/uploads/2026/08/UFCSPA-MEDICA-Gabarito-preliminar-e-disponibilizacao-do-resultado-preliminar-da-prova-objetiva.pdf). As duas cópias foram comparadas em 08/11/2026 e a chave do Acesso Direto é idêntica nas 100 questões.
 - Gabarito definitivo de 2027: **ainda não publicado** em 08/11/2026.
 
 ## Conferências feitas em 08/11/2026
