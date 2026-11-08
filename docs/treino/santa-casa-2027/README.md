@@ -26,4 +26,4 @@ Resolução própria das 100 questões a partir do PDF da prova, com justificati
 - `claude/flashcards_claude.csv`: 95 cartões.
 - `figuras/`: ECG da Q30 e forest plot da Q58.
 
-O pacote é editorial e não é um lote nativo do importador do MEDUNIDAVI.
+O pacote é editorial: ainda não foi adaptado ao formato de importação do Capi MEDUNIDAVI. O antigo Treino-enamed está aposentado e não é destino deste material.
