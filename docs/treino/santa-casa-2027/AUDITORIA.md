@@ -65,7 +65,7 @@ A V2 chega às mesmas conclusões nesses cinco itens (Q38 = C; os demais retidos
 
 ## 7. Recomendação para a curadoria
 
-1. Usar como base a minha versão ou a V2, conforme a preferência editorial. Elas concordam em 95 dos 100 itens quanto à resposta.
+1. Usar como base a minha versão ou a V2, conforme a preferência editorial. Elas concordam em 96 dos 100 itens quanto à resposta (contando "nenhuma" e "AMBIGUOUS" como equivalentes) e divergem nas Q33, Q35, Q58 e Q86.
 2. Decidir os 5 itens de divergência (seção 3).
 3. Manter bloqueados 28, 38, 52, 88 e 90 até o gabarito definitivo.
 4. Conferir as fontes dos itens listados na seção 6 antes de liberar ao estudante.
